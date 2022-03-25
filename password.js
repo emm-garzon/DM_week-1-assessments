@@ -5,7 +5,11 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
-console.log("Welcome to the 'Password Validator Tool'");
+console.log(
+  "\r\n  _____                                    _  __      __   _ _     _       _               _______          _ \r\n |  __ \\                                  | | \\ \\    / /  | (_)   | |     | |             |__   __|        | |\r\n | |__) |_ _ ___ _____      _____  _ __ __| |  \\ \\  / /_ _| |_  __| | __ _| |_ ___  _ __     | | ___   ___ | |\r\n |  ___/ _` / __/ __\\ \\ /\\ / / _ \\| '__/ _` |   \\ \\/ / _` | | |/ _` |/ _` | __/ _ \\| '__|    | |/ _ \\ / _ \\| |\r\n | |  | (_| \\__ \\__ \\\\ V  V / (_) | | | (_| |    \\  / (_| | | | (_| | (_| | || (_) | |       | | (_) | (_) | |\r\n |_|   \\__,_|___/___/ \\_/\\_/ \\___/|_|  \\__,_|     \\/ \\__,_|_|_|\\__,_|\\__,_|\\__\\___/|_|       |_|\\___/ \\___/|_|\r\n                                                                                                              \r\n                                                                                                              \r\n"
+);
+
+// console.log("Welcome to the 'Password Validator Tool'"); // original greeting before ASCII art
 
 reader.question("Please enter your password: ", function (input) {
   if (input.length >= 10) {
