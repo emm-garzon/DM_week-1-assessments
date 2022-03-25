@@ -11,11 +11,17 @@
 
 //CODE HERE
 
+const gitDefinition =
+  "Git creates a local repository in your workstation that allows you to easily save, and track changes made to your code/application/software. Can be connected with 3rd-party repositories (ie. GitHub), allowing you to save files online.";
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
+
+const gitHubDefinition =
+  "GitHub is online repository that allows you store files, and track changes; much like Git, it allows for version control, but because it is online, it can be easily accessed by a team of developers all contributing to the same code base.";
 
 //CODE HERE
 
@@ -27,6 +33,9 @@
 
 //CODE HERE
 
+const gitInitDefinition =
+  "Creates a new local Git repository; can be used to convert an existing, unversioned project or initialize an new, empty directory.";
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +44,9 @@
 
 //CODE HERE
 
+const gitCloneDefinition =
+  "Makes a clone or copy of an existing repo in a new directory, at another location.";
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +54,9 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition =
+  "A comprehensive look at the state of the working directory, and staging area; lets you see which changes have been staged, and if there are files not being tracked by Git.";
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +69,11 @@
 
 //CODE HERE
 
+const gitAddDefinition =
+  "Adds any changes made in the working directory to the staging area.";
+
+const gitAddCode = "git add .";
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +85,10 @@
 
 //CODE HERE
 
+const gitCommitDefinition =
+  "After changes are staged, commit will capture a 'snapshot' of the repository at a specific point in time; sometimes referred to as a 'milestone' in the timeline of a Git project.";
+
+const gitCommitCode = 'git commit -m "initial commit"';
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +97,6 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition =
+  "When issued, it uploads the local repository content to a remote repository (in our use-case: GitHub)";
